@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mercado fatech</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mercado.css">
+    <link rel="icon" href="./imagens_mercado/logo_mercado.png">
+</head>
+
+<body>
+    <header>
+        <a href="carrinho.html">
+            <img src="./imagens_mercado/carrinho_market_sem_fundo-removebg-preview.png" width="80" height="80"></a>
+        <div class="imagem_cabecario">
+            <img src="./imagens_mercado/logo_mercadão.png" width="200" height="170">
+        </div>
+        <a href="usuario.html">
+            <h2>usuario</h2>
+        </a>
+    </header>
+    <script src="total_js.js"></script>
+    <h1>produtos</h1>
+    <form id="buscando">
+    <input type="text" class="buscando" id="busca" placeholder="buscar produtos"/>
+    <button type="submit">pesquisar</button>
+    <script src="./busca.js"></script>
+    </form>
+    <nav>
+        <a href="mercado.html">
+            <h2>todos</h2>
+        </a>
+        <a href="mercadocomida.html">
+            <h2>comida</h2>
+        </a>
+        <a href="mercadolimpeza.html">
+            <h2>limpeza</h2>
+        </a>
+        <a href="mercadoutensilios.html">
+            <h2>utensilios</h2>
+        </a>
+    </nav>
+    <hr>
+    <div class="produtos">
+        <div class="P1">
+            <a href="arroz.html">
+                <img src="./imagens_mercado/arroz_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_arroz">
+            <input type="number" id="quantidade_arroz" min="1"/>
+            <button type="submit" onclick="total_arroz()">enviar</button>
+            </form>
+            arroz R$20,00 un.
+        </div>
+
+        <div class="P2">
+            <a href="acucar.html">
+                <img src="./imagens_mercado/acucar_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_acucar">
+            <input type="number" id="quantidade_acucar" min="1"/>
+            <button type="submit" onclick="total_acucar()">enviar</button>
+            </form>
+            açucar R$15,00 un.
+        </div>
+
+        <div class="P3">
+            <a href="feijao.html">
+                <img src="./imagens_mercado/feijao_sem_fundo.png" width="350" height="350">
+            </a>
+           <form id="form_quant_feijao">
+            <input type="number" id="quantidade_feijao" min="1"/>
+            <button type="submit" onclick="total_feijao()">enviar</button>
+            </form>
+            feijão R$20,00 un.
+        </div>
+
+        <div class="P4">
+            <a href="soja.html">
+                <img src="./imagens_mercado/oleo_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_soja">
+            <input type="number" id="quantidade_soja" min="1"/>
+            <button type="submit" onclick="total_oleo()">enviar</button>
+            </form>
+            óleo de soja R$10,00 un.
+        </div>
+    </div>
+    <p></p>
+    <div class="produtos2">
+
+        <div class="P5">
+            <a href="sabao.html">
+                <img src="./imagens_mercado/phebo_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_sabao">
+            <input type="number" id="quantidade_sabao" min="1"/>
+            <button type="submit" onclick="total_sabonete()">enviar</button>
+            </form>
+            sabonete R$2,00 un.
+        </div>
+
+        <div class="P6">
+            <a href="shampoo.html">
+                <img src="./imagens_mercado/shampoo_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_shampoo">
+            <input type="number" id="quantidade_shampoo" min="1"/>
+            <button type="submit" onclick="total_shampoo()">enviar</button>
+            </form>
+            shampoo R$15,90 un.
+        </div>
+
+        <div class="P7">
+            <a href="sabao_po.html">
+                <img src="./imagens_mercado/sabao_po_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_sabao_po">
+            <input type="number" id="quantidade_sabao_po" min="1"/>
+            <button type="submit" onclick="total_sabao_em_po()">enviar</button>
+            </form>
+            sabão em pó R$19,90 un.
+        </div>
+
+        <div class="P8">
+            <a href="condicionador.html">
+                <img src="./imagens_mercado/condicioandor_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_condicionador">
+            <input type="number" id="quantidade_condicionador" min="1"/>
+            <button type="submit" onclick="total_condicionador()">enviar</button>
+            </form>
+            condicionador R$20,90 un.
+        </div>
+    </div>
+    <p></p>
+    <div class="produtos3">
+
+        <div class="P9">
+            <a href="faca.html">
+                <img src="./imagens_mercado/faca_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_faca">
+            <input type="number" id="quantidade_faca" min="1"/>
+            <button type="submit" onclick="total_faca()">enviar</button>
+            </form>
+            faca R$9,90 un.
+        </div>
+
+        <div class="P10">
+            <a href="garfo.html">
+                <img src="./imagens_mercado/garfo_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_garfo">
+            <input type="number" id="quantidade_garfo" min="1"/>
+            <button type="submit" onclick="total_garfo()">enviar</button>
+            </form>
+            garfo R$9,90 un.
+        </div>
+
+        <div class="P11">
+            <a href="colher.html">
+                <img src="./imagens_mercado/colher_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_colher">
+            <input type="number" id="quantidade_colher" min="1"/>
+            <button type="submit" onclick="total_colher()">enviar</button>
+            </form>
+            colher R$9,90 un.
+        </div>
+
+        <div class="P12">
+            <a href="copo.html">
+                <img src="./imagens_mercado/copo_sem_fundo.png" width="350" height="350">
+            </a>
+            <br>
+            <form id="form_quant_copo">
+            <input type="number" id="quantidade_copo" min="1"/>
+            <button type="submit" onclick="total_copo()">enviar</button>
+            </form>
+            copo R$9,90 un.
+        </div>
+    </div>
+    <hr>
+    <h3>pedidos</h3>
+     <script src="carrinho_arroz.js"></script>
+        <div id="carrinho_arroz"></div>
+
+    <script src="carrinho_acucar.js"></script>
+        <div id="carrinho_acucar"></div>
+
+        <script src="carrinho_feijao.js"></script>
+        <div id="carrinho_feijao"></div>
+
+    <script src="carrinho_oleo.js"></script>
+        <div id="carrinho_oleo"></div>
+
+        <script src="carrinho_shampoo.js"></script>
+        <div id="carrinho_shampoo"></div>
+
+    <script src="carrinho_sabonete.js"></script>
+        <div id="carrinho_sabonete"></div>
+
+        <script src="carrinho_sabao_em_po.js"></script>
+        <div id="carrinho_sabao_em_po"></div>
+
+    <script src="carrinho_condicionador.js"></script>
+        <div id="carrinho_condicionador"></div>
+
+        <script src="carrinho_faca.js"></script>
+        <div id="carrinho_faca"></div>
+
+    <script src="carrinho_garfo.js"></script>
+        <div id="carrinho_garfo"></div>
+
+        <script src="carrinho_colher.js"></script>
+        <div id="carrinho_colher"></div>
+
+    <script src="carrinho_copo.js"></script>
+        <div id="carrinho_copo"></div>
+        <br>
+        total:<div id="total"></div>
+    <hr>
+    <img src="./imagens_mercado/whatssap_bao_sem_fundo.png" width="70" height="70">
+    <strong>entre em contato conosco com whatssap 44 9090-8456</strong>
+    <p></p>
+    <h3>a localização da loja fisica:</h3>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1192.3550832144413!2d-54.25653961006517!3d-24.084250248831946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f4af30f7e75115%3A0x35cf852501031adb!2sMega%20Barato!5e0!3m2!1spt-BR!2sbr!4v1757898998968!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <h3>caixa de reclamações</h3>
+    <textarea name="reclamacao" id="reclamacao"></textarea>
+    <button type="submit">enviar</button>
+    <hr>
+    <h4>site desenvolvido por Guilherme Menegazzi Gobetti, Lucas Gabriel, Mateus Eike e João Vitor</h4>
+</body>
+
+</html>

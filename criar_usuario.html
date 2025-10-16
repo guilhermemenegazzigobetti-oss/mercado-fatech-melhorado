@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./criar_usuario.css">
+<title>criar usuario</title>
+</head>
+<body>
+<header>
+<div class="imagem_cabecario">
+<img src="./imagens_mercado/logo_mercado_sem_fundo.png" width="200" height="170">
+</div>
+</header>
+<p>o</p>
+<p>0</p>
+<p>o</p>
+<p></p>
+<hr>
+<h1>cadastro</h1>
+<div class="cadastro">
+<form id="loginForm">
+    <label for="username">Usuário:</label><br>
+    <textarea id="username" name="username"></textarea><br><br>
+    <label for="password">Senha:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <button type="button" onclick="conta()">crie a conta</button>
+    <button type="button" onclick="login()">login</button>
+  </form>
+</div>
+<script>
+ function conta() {
+      let username = document.getElementById("username").value;
+      let password = document.getElementById("password").value;
+
+      // Salva as informações no localStorage (não recomendado para senhas)
+      localStorage.setItem("username", username);
+      localStorage.setItem("password", password);
+
+ }
+ function login(){
+  document.getElementById("username");
+  document.getElementById("password");
+
+if (username === "username" && password === "password") {
+        alert("Login bem-sucedido!");
+        // Redireciona para a página principal
+        window.location.href ="mercado";
+      } else {
+        alert("Usuário ou senha incorretos.");
+      }
+}
+</script>
+<hr>
+<h1>login</h1>
+
+</body>
+</html>

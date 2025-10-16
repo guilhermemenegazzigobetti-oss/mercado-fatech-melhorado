@@ -1,0 +1,23 @@
+header{
+background-color: rgb(62, 54, 184);
+width: 100% ;
+height: 120px;
+display: flex;
+margin: 0;
+top: 0;
+position: fixed;
+left: 0;
+padding: 0;
+}
+.imagem_cabecario{
+  margin: auto;
+}
+.cadastro{
+text-align: center;
+}
+.login{
+text-align: center;
+}
+h1{
+text-align: center;
+}

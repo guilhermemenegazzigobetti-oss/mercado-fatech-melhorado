@@ -1,0 +1,118 @@
+header{
+background-color: rgb(62, 54, 184);
+width: 100% ;
+height: 120px;
+display: flex;
+margin: 0;
+top: 0;
+position: fixed;
+left: 0;
+padding: 0;
+}
+.imagem_cabecario{
+  margin: auto;
+}
+h1{
+margin: 200px;
+text-align: center;
+text-decoration: underline;
+}
+.P1{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P2{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P3{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P4{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P5{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P6{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P7{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P8{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P9{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P10{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P11{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.P12{
+background-color: rgb(211, 211, 211);
+width: 350px;
+padding: 20px;
+}
+.produtos{
+display: flex;
+  justify-content: space-around; /* Espaço entre os elementos */
+  align-items: center; /* Alinha os elementos verticalmente */
+}
+.produtos2{
+  display: flex;
+  justify-content: space-around; /* Espaço entre os elementos */
+  align-items: center; /* Alinha os elementos verticalmente */
+}
+.produtos3{
+  display: flex;
+  justify-content: space-around; /* Espaço entre os elementos */
+  align-items: center; /* Alinha os elementos verticalmente */
+}
+nav{
+display: flex;
+  justify-content: space-around; /* Espaço entre os elementos */
+  align-items: center; /* Alinha os elementos verticalmente */
+}
+a{
+color: black;
+}
+.usuario{
+justify-content: space-around;
+}
+button{
+transition: background-color 0.3s ease;
+}
+.buscando{
+width: 100%;
+max-width: 400px;
+padding: 12px 20px;
+border: 2px solid black;
+border-radius: 10px;
+font-size: 16px;
+transition: border-color 0.3s ease;
+}
+
