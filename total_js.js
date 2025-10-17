@@ -179,3 +179,4 @@ console.log("ainda não");
 document.getElementById("total").innerHTML = parseFloat(document.getElementById("total").innerHTML) + parseFloat(valor_copo.toFixed(2));
 }
 }
+let oi = 0
